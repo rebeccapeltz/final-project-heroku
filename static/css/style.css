@@ -1,0 +1,99 @@
+/* body {
+  background-color:#BAD9A2;
+} */
+
+.action {
+  width: 60px;
+  display: inline-block;
+}
+.main {
+  margin-top: 70px;
+}
+
+.fa-cat {
+  font-size: 30px;
+  margin-right: 10px;
+  color: white;
+}
+a.btn {
+  color: white;
+}
+
+.fa-id-badge {
+  font-size: 30px;
+  color: #6c757d;
+}
+
+.dropdown {
+  margin: 0 5px;
+}
+
+.card-block {
+  padding: .5rem;
+  height: 100%;
+}
+
+.card {
+  margin-bottom: .5rem;
+  box-shadow: 5px 5px 5px lightgrey;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.public-switch,
+.public {
+  background-color: #FAF3B8 !important;
+  color: black !important;
+}
+
+.private-switch,
+.private {
+  background-color: #EEF7F9 !important;
+  color: black;
+}
+
+.cat .badge-secondary {
+  font-weight: normal !important;
+  background-color: #BCDFE7 !important;
+  color: black;
+}
+
+.public-row,
+.private-row {
+  margin-bottom: 1rem;
+}
+
+.form-buttons {
+  list-style-type: none;
+}
+.form-buttons li{
+  display: inline-block;
+}
+.cat-group {
+  columns: 2 auto;
+}
+.cat-input-desc{
+  width: 30rem;
+}
+.cat-item {
+  width: 40rem;
+}
+.cat-desc {
+  width: 10rem;
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+.show-inline {
+  display: inline-block;
+}
+
+.add-form {
+  margin: 2rem 0;
+}
+
+.upd-icons{
+  margin: 0 1rem;
+}
