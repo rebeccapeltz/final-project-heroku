@@ -1,5 +1,5 @@
 # final-project
-
+ 
 ## Data
 There is a many to many relationship between links and categories.  To bootstrap the data you can run these scripts in this order.
 1. create.py  Create the database  This script will drop all tables before creating
