@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", event => {
-  if (window.location.href.indexOf("index") > -1) {
     let option1 = document.querySelector("#option1")
     let option2 = document.querySelector("#option2")
     let option3 = document.querySelector("#option3")
@@ -8,20 +7,19 @@ document.addEventListener("DOMContentLoaded", event => {
     if (option1 && option2 && option3) {
       option1.addEventListener("click", event => {
         event.stopPropagation()
-        publicRow.style.display = "flex"
-        privateRow.style.display = "flex"
+        publicRow ? publicRow.style.display = "flex" : null
+        privateRow ? privateRow.style.display = "flex" : null
       })
       option2.addEventListener("click", event => {
         event.stopPropagation()
-        publicRow.style.display = "flex"
-        privateRow.style.display = "none"
+        publicRow ? publicRow.style.display = "flex" : null
+        privateRow ? privateRow.style.display = "none" : null
       })
       option3.addEventListener("click", event => {
         event.stopPropagation()
-        publicRow.style.display = "none"
-        privateRow.style.display = "flex"
+        publicRow ? publicRow.style.display = "none" : null
+        privateRow ? privateRow.style.display = "flex" : null
       })
-    }
   }
 
   //category manager
